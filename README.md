@@ -15,11 +15,12 @@ Iniciei com criação do projeto com a ferramenta Spring Initializr fazendo a mo
 
 Em seguida, com apoio da IDEA IntelliJ, abri o projeto em pasta arquivo local para utilizar a ferramenta IntelliJ para codar
 Passos seguintes:
-        a-Criar os Diretorios: controller, model, repository, service;
-        b-criar classes Java Class nos Diretorios e Class Java Interface para a classe repository com extensão dela para frame JPA Spring;
-        c-configuração da conexão entre projeto no IntelliJ com o BD no Docker na pasta Resources, aquivo application.properties;
-        d-testar conexão pela classe main e checagem das dependecias baixadas se tudo ok;
-        e-iniciei a codação das classes iniciando pelo criaçaõ dos metodos na ordem:
+
+        a. Criar os Diretorios: controller, model, repository, service;
+        b. criar classes Java Class nos Diretorios e Class Java Interface para a classe repository com extensão dela para frame JPA Spring;
+        c. configuração da conexão entre projeto no IntelliJ com o BD no Docker na pasta Resources, aquivo application.properties;
+        d. testar conexão pela classe main e checagem das dependecias baixadas se tudo ok;
+        e. iniciei a codação das classes iniciando pelo criaçaõ dos metodos na ordem:
             -primeiramente para dar forma a tabela no BD do servidor Tomcat via classe model no intelliJ, com anotações Lombok @Getter, @Setter, @AllArgsContructor,@NoArgsContructor,@Entity,@Table
             -em seguida classe interface repository com extensão para frame JPA, e anotação @RestController para indicar objetivo da classe
             -em seguida classe Controller inserindo anotação @RestController para indicar objetivo da classe, para criar os metodos para requisições do tipo Get, Post, Put e Delete,
